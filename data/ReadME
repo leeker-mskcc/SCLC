@@ -1,0 +1,7 @@
+3 Folders: lx599, lx33, lx108: one for each data set
+
+Within each folder dataset is split by time points, each with their associated list of output data files
+- adjacencies file -> list of TF + TG with importance measurement from GRN coexpression modules calculation
+- modules -> constructed modules object from adjancies
+- motifs -> post RCistarget, the list of confirmed enriched motifs with their target genes, NES score (significance of the motif enrichment) and etc
+- regulon -> merged enriched motifs to make one regulon object
