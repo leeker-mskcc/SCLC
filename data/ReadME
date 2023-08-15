@@ -5,3 +5,5 @@ Within each folder dataset is split by time points, each with their associated l
 - modules -> constructed modules object from adjancies
 - motifs -> post RCistarget, the list of confirmed enriched motifs with their target genes, NES score (significance of the motif enrichment) and etc
 - regulon -> merged enriched motifs to make one regulon object
+- regulon.csv -> dataframe file, regulon.p -> python object file
+- important_tf.csv -> dataframe file that holds all the tf-tg interaction for specific important tf interactions
